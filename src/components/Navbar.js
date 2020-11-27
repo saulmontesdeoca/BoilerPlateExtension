@@ -6,7 +6,7 @@ const NavBar = () => {
 		<>
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 				<Link className="navbar-brand ml-3" href="/">
-					My Boiler Plate
+					Code Helpify
 				</Link>
 				<button
 					className="navbar-toggler"
