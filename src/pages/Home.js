@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Image, Jumbotron } from "react-bootstrap";
+import { Button, Jumbotron } from "react-bootstrap";
 import Layout from "../components/Layout";
 import Form from "../components/Form";
 
