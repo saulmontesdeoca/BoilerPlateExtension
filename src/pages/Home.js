@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Jumbotron } from "react-bootstrap";
 import Layout from "../components/Layout";
 import Form from "../components/Form";
-import logo from '../assets/codehelper.png'
+import logo from "../assets/codehelper.png";
 
 const Home = () => {
 	const [formData, setFormData] = useState({
@@ -20,9 +20,11 @@ const Home = () => {
 		<Layout>
 			<div className="text-center">
 				<Jumbotron>
-					<img src={logo} style={{height: 256}}/>
-					<br/>
-					<p style={{fontSize: 22}}>You can build your own boiler-plate for any project you want.</p>
+					<img alt="logo" src={logo} style={{ height: 256 }} />
+					<br />
+					<p style={{ fontSize: 22 }}>
+						You can build your own boiler-plate for any project you want.
+					</p>
 					<p>
 						<Button variant="primary">Start</Button>
 					</p>
