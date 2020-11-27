@@ -6,7 +6,7 @@ import Form from "../components/Form";
 const Home = () => {
 	const [formData, setFormData] = useState({
 		frontend: "React",
-		backend: "Node",
+		backend: "Django",
 		packageManager: "npm",
 	});
 	const handleChange = (e) => {
