@@ -22,6 +22,7 @@ const Formm = ({ formData, handleChange }) => {
 							<Form.Control name="backend" onChange={handleChange} as="select">
 								<option>Django</option>
 								<option>Node</option>
+								<option>Flask</option>
 							</Form.Control>
 						</Form.Group>
 					</Col>
