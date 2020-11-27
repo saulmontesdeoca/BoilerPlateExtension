@@ -33,6 +33,18 @@ const Sidebar = () => {
 							Vue
 						</Link>
 					</li>
+					<li className="nav-item">
+						<Link className="nav-link" to="/helpers/node">
+							{" "}
+							Node
+						</Link>
+					</li>
+					<li className="nav-item">
+						<Link className="nav-link" to="/helpers/readme">
+							{" "}
+							Readme
+						</Link>
+					</li>
 				</ul>
 			</div>
 		</div>
